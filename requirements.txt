@@ -5,3 +5,4 @@ python-dotenv==1.0.1
 virtualenv==20.24.5
 dnspython==2.6.1
 pymongo[srv]
+flask-cors==5.0.0
