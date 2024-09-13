@@ -3,9 +3,10 @@ import pymongo
 import datetime
 from dotenv import load_dotenv
 import os
+from flask_cors import CORS
 
 app = Flask(__name__)
-
+CORS(app)
 load_dotenv()
 
 # MongoDB
